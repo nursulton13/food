@@ -417,7 +417,7 @@
     justify-content: space-between;
 }
 .card-group .btn{
-    margin: 2rem auto;
+    margin: 2rem auto 5rem;
     border: 1px solid rgba(0, 0, 0, 0.125);
 }
 @media screen and (max-width: 950px) {
@@ -428,5 +428,202 @@
 @media screen and (max-width: 550px) {
     .card{
         width: 100% !important;
+    }
+}
+.take-away{
+    background-image: url(../images/Rectangle\ 59.png);
+    background-size: cover;
+    
+}
+.inside-take-away{
+    max-height: 480px;
+    width: 74%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.take-text >p{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+    padding: 80px 0 0px;
+}
+.take-text >h4{
+    font-family: "Philosopher", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 41px;
+    color: #150C01;
+}
+.take-text >h6{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+}
+.take-btn-group{
+    align-items: center !important;
+}
+.btn-dark{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.take-img > img{
+    margin-top: -100px;
+    border-radius: 60px;
+    box-shadow: 0 0 20px rgba(240, 180, 180, 0.425),
+                0 0 10px rgba(240, 180, 180, 0.325);
+}
+@media screen and (max-width:1000px) {
+    .take-away{
+        margin-top: 0 !important;
+    }
+    .inside-take-away{
+        max-height: 480px;
+        align-items: center;
+        flex-direction: column;
+        max-height: 1500px;
+    }
+    .take-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .take-img > img{
+        margin: 50px 0;
+    }
+}
+.testimols{
+    padding: 150px 15px 50px;
+    text-align: center;
+}
+.testimols  >p{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+}
+.testimols-text{
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.left, .right{
+    flex:1;
+    border: 1px solid transparent;
+    padding: 2rem 0;
+    cursor: pointer;
+}
+.left:hover, .right:hover{
+    border: 1px solid rgba(0, 0, 0, 0.225);
+    padding: 2rem 0;
+    background-color: rgba(0, 0, 0, 0.125);
+}
+.text-center{
+    flex:8;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 25px 0 0;
+}
+h5{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.7;
+}
+@media screen and (max-width:500px) {
+    .testimols-text{
+        width: 96%;
+    }
+}
+.contact{
+    padding: 50px 0;
+    text-align: center;
+    background-image: url(../images/Rectangle\ 48.png);
+    background-size: cover;
+}
+.inside-contact{
+    width: 60%;
+    margin: 0 auto;
+}
+.contact  p{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+}
+.contact  h4{
+    font-family: "Philosopher", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 41px;
+    color: #150C01;
+}
+.contact input{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+.contact input:hover{
+    box-shadow: 0 0 15px rgb(58, 174, 246);
+}
+.contact button{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 41px;
+    color: #FFFFFF;
+    padding: 0 20px;
+    border: none;
+}
+@media screen and (max-width:800px) {
+    .inside-contact{
+        width: 80%;
+        margin: 0 auto;
     }
 }
